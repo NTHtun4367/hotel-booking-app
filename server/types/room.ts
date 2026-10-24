@@ -4,6 +4,8 @@ type RoomImageType = {
 };
 
 export type RoomType = {
+  title: string;
+  description: string;
   roomNumber: string;
   type: string;
   pricePerNight: number;
